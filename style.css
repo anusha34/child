@@ -1,0 +1,52 @@
+/*
+Theme Name: Polestar Child 
+Theme URI: https://wordpress.org/themes/polestar/
+Description: Polestar Child Theme
+Author: Puro
+Author URI: http://purothemes.com/
+Template: polestar
+Version: 1.0.0
+Text Domain: polestar
+Domain Path: /languages/
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+#masthead {
+	padding-top: 0;
+	padding-bottom: 0;
+	background: #404;	
+	border-bottom: #404;
+}
+
+.main-navigation ul button a {
+	color: #efefef;
+}
+
+.site-footer .widget .widget-title {
+	border-bottom-color: #404
+}
+
+.main-navigation .search-icon svg path {
+	fill: #efefef;
+}
+
+#colophon {
+	background: radial-gradient(ellipse at top, #999,#fff);
+}
+
+body.home .masthead-sentinel {
+	margin-bottom: 0px;
+}
+
+.site-info {
+	display: none;
+}
+
+#infinite-handle span>button {
+	background: transparent;
+}
+
+.side-crop { max-width: 219px; overflow: hidden; }
+.side-crop img { max-width: initial; /* Maybe optional. See note below */ }
+
